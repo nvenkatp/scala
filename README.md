@@ -4,7 +4,7 @@ I am writing this blog to share my understanding on the Scala programming langua
 
 ### Basics
 
-Refer this [link](/basics) to learn basics on scala programming language.
+Refer this [link](/scala/basics) to learn basics on scala programming language.
 
 ### Collections
 
