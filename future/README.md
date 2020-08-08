@@ -2,6 +2,8 @@
 
 Scala Future is very similar to the one used in Java. This is used primarily for non-blocking use cases where we don't want to block the main thread or thread which invokes future call. A future is nothing but a placeholder where we might expect result would be placed at some point in time in future.
 
+Refer this [link](/nonblocking.md) to go for non-blocking examples
+
 ### Blocking Example 1
 
 ```
