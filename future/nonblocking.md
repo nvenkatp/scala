@@ -49,14 +49,15 @@ Main thread completed
 
 ```
 
-The `onComplete` method is a callback one which will executes once the future variable `f` completes. Note that the main thread can still perform other tasks after `f.onComplete` method. At last the main thread has to wait for sometime so that the other thread complete and the callback functions execute.
+The `onComplete` method is a callback one which will execute once the future variable `f` completes. Note that the main thread can still perform other tasks after `f.onComplete` method. At last the main thread has to wait for sometime so that the other thread complete and the callback functions execute.
 
-**NOTE** - In case if the main thread doesn't wait for the other thread (assume we don't have that for block waiting for `100 milliseconds` for 5 times), you will get the output as like below,
+**NOTE** 
+1. In case if the main thread doesn't wait for the other thread (assume we don't have that for block waiting for `100 milliseconds` for 5 times), you will get the output as like below,
 
 ```
 Thread executing future task - ForkJoinPool-1-worker-29
 Main thread still running !!!
 Main thread completed
 ```
-
-**NOTE** One problem with this callback function is that it won't return anything and so its return type is `Unit`. Hence we should use this callback when we don't have to return anything.
+2. Callback `onComplete` would execute no matter what future completed successfully or errored out. To see if is success or failure, you have to use matching case blocks `Success` or `Failure`.
+3. One problem with this callback function is that it won't return anything and so its return type is `Unit`. Hence we should use this callback when we don't have to return anything.
