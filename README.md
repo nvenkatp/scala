@@ -8,8 +8,8 @@ Refer this [link](/scala/basics) to learn basics on scala programming language.
 
 ### Collections
 
-Refer this [link](https://nvenkatp.github.io/scala/collections) to learn collections used in scala.
+Refer this [link](/scala/collections) to learn collections used in scala.
 
 ### Future
 
-Refer this [link](https://nvenkatp.github.io/scala/future) to learn how to use Future in scala.
+Refer this [link](/scala/future) to learn how to use Future in scala.
