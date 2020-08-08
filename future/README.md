@@ -130,3 +130,11 @@ Thread executing future task - ForkJoinPool-1-worker-29
 ```
 
 All exceptions that occured when executing the future task can be caught by this `Try` case `Failure` block. This example is to show how `ArithmeticException`was thrown and caught. We could also use regular `try/catch` block instead of this `Try` case block. Use any one form to capture all exceptions.
+
+## Future Nonblocking
+
+Refer this [link](/nonblocking.md) to go for non-blocking examples
+
+## Scala blog home
+
+Visit [home page](https://nvenkatp.github.io/scala)
