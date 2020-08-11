@@ -123,6 +123,14 @@ Exception occurred Invalid cleaned string
 
 This is the same example shown above except here in `getLength` function we are throwing `IllegalArgumentException` when the input string is empty. Because we are passing string `1234` to the `cleanString` function, the output of which is empty. When this empty string is passed to `getLength` function, it throws error and skips calls `isEven` method in this case. We could catch the exception in `Try` block as we discussed before.
 
+## Future Sequence
+
+Refer this [link](/sequence.md) to go to Future Sequence topic.
+
+## Future home page
+
+Refer this [link](/README.md) to go to Future home page
+
 ## Scala blog home
 
 Visit [home page](https://nvenkatp.github.io/scala)

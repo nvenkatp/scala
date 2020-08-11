@@ -12,6 +12,10 @@ Refer this [link](/nonblocking.md) to go for non-blocking examples
 
 Refer this [link](/chaining.md) to go for future chaining examples
 
+### Future Chaining
+
+Refer this [link](/sequence.md) to go for future sequence examples
+
 ## Scala blog home
 
 Visit [home page](https://nvenkatp.github.io/scala)

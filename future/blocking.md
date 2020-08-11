@@ -204,7 +204,7 @@ Refer this [link](/nonblocking.md) to go for non-blocking examples
 
 ## Future home page
 
-Refer this [link](/README.md) to go for non-blocking examples
+Refer this [link](/README.md) to go to Future home page
 
 ## Scala blog home
 

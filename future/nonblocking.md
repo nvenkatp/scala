@@ -105,7 +105,7 @@ Refer this [link](/chaining.md) for more details on it.
 
 ## Future home page
 
-Refer this [link](/README.md) to go for non-blocking examples
+Refer this [link](/README.md) to go to Future home page
 
 ## Scala blog home
 
