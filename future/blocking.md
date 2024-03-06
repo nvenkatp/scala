@@ -191,7 +191,7 @@ val f = Future {
     println("Thread executing future task - "+Thread.currentThread().getName)
     Thread.sleep(500) //Assume time consuming task
     1 / 0             //throwing exception
-  }.recover {
+  }.recoverWith {
     case ex: ArithmeticException => 
       println("Thread executing recover block - "+Thread.currentThread().getName)
       Future.successful(0) // or Future { 0 }
